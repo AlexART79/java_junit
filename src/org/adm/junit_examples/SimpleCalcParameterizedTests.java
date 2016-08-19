@@ -24,7 +24,7 @@ public class SimpleCalcParameterizedTests {
 	}
 	
 	@Parameters(name="Add: {0} to {1} equals {2}")
-	public static Collection CalcData() {
+	public static Collection<Object[]> CalcData() {
 	      return Arrays.asList(new Object[][] {
 	         { 2, 2, 4 },
 	         { 1, 0, 1 },
@@ -37,5 +37,4 @@ public class SimpleCalcParameterizedTests {
 	public void testAdd() {
 		assertEquals(res, SimpleCalculator.Add(x, y), 0);
 	}
-
 }
