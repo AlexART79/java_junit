@@ -1,4 +1,4 @@
-package org.adm.junit_examples;
+package org.adm.javaaut;
 
 public class SimpleCalculator {
 	public static double Add(float x, float y) {

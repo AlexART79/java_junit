@@ -1,12 +1,7 @@
-package org.adm.junit_examples;
-
-import static org.junit.Assert.*;
-
-import org.junit.Test;
+package org.adm.junittests;
 
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-
 
 public class TestSuitSampleTest extends TestCase {
 

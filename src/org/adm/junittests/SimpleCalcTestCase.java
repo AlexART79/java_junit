@@ -1,6 +1,6 @@
-package org.adm.junit_examples;
+package org.adm.junittests;
 
-import static org.junit.Assert.*;
+import org.adm.javaaut.SimpleCalculator;
 import org.junit.Test;
 import junit.framework.TestCase;
 

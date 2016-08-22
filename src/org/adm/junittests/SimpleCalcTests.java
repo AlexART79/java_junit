@@ -1,7 +1,8 @@
-package org.adm.junit_examples;
+package org.adm.junittests;
 
 import static org.junit.Assert.*;
 
+import org.adm.javaaut.SimpleCalculator;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -20,7 +21,7 @@ public class SimpleCalcTests {
 	}
 
 	@Test
-	@Ignore
+	@Ignore("This test is not implemented yet")
 	public void testMult() {
 		fail("Not yet implemented");
 	}
