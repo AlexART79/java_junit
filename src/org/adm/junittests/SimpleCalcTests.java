@@ -29,6 +29,5 @@ public class SimpleCalcTests {
 	@Test
 	public void testDiv() {
 		fail("Not yet implemented");
-	}
-
+	}	
 }
